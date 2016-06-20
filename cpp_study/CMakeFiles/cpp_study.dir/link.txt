@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/cpp_study.dir/main.cpp.o  -o cpp_study 
+/usr/bin/c++    -std=c++11   CMakeFiles/cpp_study.dir/main.cpp.o CMakeFiles/cpp_study.dir/CMakeFiles/iotest.cpp.cpp.o  -o cpp_study 

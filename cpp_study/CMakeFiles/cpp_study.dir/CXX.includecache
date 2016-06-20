@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/vinu/g/practice/cpp_study/CMakeFiles/iotest.cpp.cpp
+iostream
+-
+
 /home/vinu/g/practice/cpp_study/main.cpp
 iostream
 -

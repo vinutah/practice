@@ -123,6 +123,33 @@ cpp_study/fast:
 	$(MAKE) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/build
 .PHONY : cpp_study/fast
 
+CMakeFiles/iotest.cpp.o: CMakeFiles/iotest.cpp.cpp.o
+
+.PHONY : CMakeFiles/iotest.cpp.o
+
+# target to build an object file
+CMakeFiles/iotest.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/CMakeFiles/iotest.cpp.cpp.o
+.PHONY : CMakeFiles/iotest.cpp.cpp.o
+
+CMakeFiles/iotest.cpp.i: CMakeFiles/iotest.cpp.cpp.i
+
+.PHONY : CMakeFiles/iotest.cpp.i
+
+# target to preprocess a source file
+CMakeFiles/iotest.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/CMakeFiles/iotest.cpp.cpp.i
+.PHONY : CMakeFiles/iotest.cpp.cpp.i
+
+CMakeFiles/iotest.cpp.s: CMakeFiles/iotest.cpp.cpp.s
+
+.PHONY : CMakeFiles/iotest.cpp.s
+
+# target to generate assembly for a file
+CMakeFiles/iotest.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_study.dir/build.make CMakeFiles/cpp_study.dir/CMakeFiles/iotest.cpp.cpp.s
+.PHONY : CMakeFiles/iotest.cpp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_study"
+	@echo "... CMakeFiles/iotest.cpp.o"
+	@echo "... CMakeFiles/iotest.cpp.i"
+	@echo "... CMakeFiles/iotest.cpp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
