@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named choice1
+
+# Build rule for target.
+choice1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 choice1
+.PHONY : choice1
+
+# fast build rule for target.
+choice1/fast:
+	$(MAKE) -f CMakeFiles/choice1.dir/build.make CMakeFiles/choice1.dir/build
+.PHONY : choice1/fast
+
+#=============================================================================
 # Target rules for targets named simpleFunctions
 
 # Build rule for target.
@@ -135,6 +148,33 @@ iotest: cmake_check_build_system
 iotest/fast:
 	$(MAKE) -f CMakeFiles/iotest.dir/build.make CMakeFiles/iotest.dir/build
 .PHONY : iotest/fast
+
+choice1.cpp.o: choice1.cpp.cpp.o
+
+.PHONY : choice1.cpp.o
+
+# target to build an object file
+choice1.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/choice1.dir/build.make CMakeFiles/choice1.dir/choice1.cpp.cpp.o
+.PHONY : choice1.cpp.cpp.o
+
+choice1.cpp.i: choice1.cpp.cpp.i
+
+.PHONY : choice1.cpp.i
+
+# target to preprocess a source file
+choice1.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/choice1.dir/build.make CMakeFiles/choice1.dir/choice1.cpp.cpp.i
+.PHONY : choice1.cpp.cpp.i
+
+choice1.cpp.s: choice1.cpp.cpp.s
+
+.PHONY : choice1.cpp.s
+
+# target to generate assembly for a file
+choice1.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/choice1.dir/build.make CMakeFiles/choice1.dir/choice1.cpp.cpp.s
+.PHONY : choice1.cpp.cpp.s
 
 iotest.o: iotest.cpp.o
 
@@ -198,8 +238,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... choice1"
 	@echo "... simpleFunctions"
 	@echo "... iotest"
+	@echo "... choice1.cpp.o"
+	@echo "... choice1.cpp.i"
+	@echo "... choice1.cpp.s"
 	@echo "... iotest.o"
 	@echo "... iotest.i"
 	@echo "... iotest.s"
