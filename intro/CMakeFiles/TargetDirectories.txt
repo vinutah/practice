@@ -1,5 +1,0 @@
-/home/vinu/g/practice/intro/CMakeFiles/edit_cache.dir
-/home/vinu/g/practice/intro/CMakeFiles/rebuild_cache.dir
-/home/vinu/g/practice/intro/CMakeFiles/choice1.dir
-/home/vinu/g/practice/intro/CMakeFiles/simpleFunctions.dir
-/home/vinu/g/practice/intro/CMakeFiles/iotest.dir
