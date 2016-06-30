@@ -1,4 +1,4 @@
-#include <grade3.hpp>
+#include "grade3.hpp"
 using namespace std;
 
 int main(void){
@@ -8,7 +8,7 @@ int main(void){
     cin >> score;
     cin.get();
 
-    while (score != -1);
+    while (score != -1) {
         cout << "your grade is : " << convertGrade(score) << endl;
         cout << "enter score :" << endl;
         cin >> score;
@@ -18,7 +18,7 @@ int main(void){
     return 0;
 }
 
-char convertGrade(int number);{
+char convertGrade(int number){
     char grade;
 
     if((number < 0) || (number > 100))
@@ -34,7 +34,7 @@ char convertGrade(int number);{
     else
         grade = 'F';
 
-    return Grade;
+    return grade;
 }
 
 
